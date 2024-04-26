@@ -84,6 +84,10 @@ main {
     margin-top: 115px;
 }
 
+.botao-download:hover {
+    background-color:#567c1a;
+}
+
 
 footer {
     width: 100%;
@@ -106,5 +110,10 @@ footer span a {
     color: white;
     font-weight: bold;
     
+}
+
+#turma:hover {
+    background-color: #FFFFFF;  
+    color:#4883C9;
 }
 
