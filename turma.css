@@ -4,54 +4,124 @@
     padding: 0;
 }
 
-html,body {
+html, body {
     width: 100%;
     height: 100%;
 }
 
-header {
-    width: 100%;
-    background-color: #0F6A00;
-    height: 8.4%;
-    text-align: center;
-    
-
+:root{
+    font-size: 62.5%;
 }
 
-.titulo{
+header {
     width: 100%;
-    height: 60%;
-    line-height: 85px;
-    color:#FFFFFF;
+    height: 12.5rem;
+    background-color: #0F6A00;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    padding-top: 2.7rem;
 }
 
 nav {
     width: 100%;
-    height: 5.8%;
-    background-color: #022146;
-}
-
-#inicio {15
+    height: 7.5rem;
     background-color: #4883C9;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .navegacao {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
     width: 50%;
-    font-size: 35px;
-    height: 30%;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: ;
 }
 
-.player img {
-    height: 300px;
+#turma {
+    background-color: #022146;
+
 }
 
-div#box1 {
+main img {
+    width: 30rem;
+    height: 30rem;
+}
+
+#box1 {
+    text-align: center;
     display: flex;
-    gap: 10vw;
-    width: 100%;
+    flex-direction: row;
     justify-content: space-around;
-    border: 1px    solid black;
+    margin-top: 5rem;
+}
 
+#box2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5.8rem;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    margin-top: 5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer span {
+    color: white;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+#pl {
+    margin-right: 3.5rem;
+}
+
+#ts {
+    margin-left: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+#inicio:hover {
+    background-color: white;
+    color: #4883C9;
+}
+
+#pedro {
+    margin-right: 10rem;
+}
+
+#thimer {
+    margin-left: 10rem  ;
+}
+
+main {
+    min-height: calc(100% - (12.5rem + 5rem + 7.5rem));
 }

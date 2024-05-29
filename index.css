@@ -16,22 +16,22 @@ html, body {
 header {
     width: 100%;
     height: 12.5rem;
-    text-align: center;
     background: #0F6A00;
+    text-align: center;
 }
 
 h1 {
-    font-size: 5rem;
-    color: white;
-    font-weight: 900;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     padding-top: 2.7rem;
+    font-size: 5rem;
 }
 
 nav {
     width: 100%;
     height: 7.5rem;
-    background: #022146;
+    background-color: #022146;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -39,12 +39,12 @@ nav {
 }
 
 .nav {
-    font-size: 5rem;
-    color: white;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
     width: 50%;
+    font-size: 5rem;
     text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 #turma {
@@ -52,52 +52,48 @@ nav {
 }
 
 main h2 {
+    text-align: center;
+    font-weight: 400;
     font-size: 5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 1.1rem;
-}
-
-main {
-    text-align: center;
-}
-
-.cont {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 11.2rem;
+    margin-top: 2rem;
 }
 
 main button {
-    margin-right: 5rem;
-    width: 45rem;
     height: 25rem;
+    width: 45rem;
     background: #B7FF42;
-    margin-top: 5rem;
     border-radius: 1rem;
+    margin-top: 11.5rem;
     font-size: 4rem;
 }
 
-main iframe {
-    margin-left: 5rem;
+
+main {
+    text-align: center;
+    min-height: calc(100% - (12.5rem + 5rem + 7.5rem));
 }
 
 footer {
-    width: 100%;
-    height: 5rem;
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10rem;
+    height: 5rem;
+    margin-top: 30.7rem;
 }
 
-footer span, footer span a {
+footer span {
     color: white;
-    font-size: 2.5rem;
     padding-top: 1rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+footer span a {
+    color: white;
     text-decoration: none;
+    font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -109,19 +105,16 @@ footer span, footer span a {
     margin-right: 2rem;
 }
 
-body {
-    background-image: url("./imgs/antigomapa.png");
-    background-size: cover;
-}
-
 #turma:hover {
-    color: #4883C9;
     background-color: white;
+    color: #4883C9;
 }
 
-#inicio:hover {
-    background-color: white;
-    color: #022146;
+body {
+    background-image: url("./imgs/paisagem.jfif");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.493);
 }
 
 main button:hover {
@@ -129,6 +122,3 @@ main button:hover {
     color: white;
 }
 
-main {
-    min-height: calc(100% - (12.5rem + 7.5rem + 5rem));
-}
